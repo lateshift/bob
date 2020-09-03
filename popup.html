@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feel the bob</title>
+    <script src="popup.js"></script>
+    <style>
+      button {
+        box-sizing: border-box;
+        border: 0 solid #e2e8f0;
+        font-family: inherit;
+        font-size: 100%;
+        margin: 0;
+        overflow: visible;
+        text-transform: none;
+        background-image: none;
+        cursor: pointer;
+        line-height: inherit;
+        --bg-opacity: 1 !important;
+        background-color: rgba(66, 153, 225, var(--bg-opacity)) !important;
+        border-radius: 0.25rem !important;
+        font-weight: 700 !important;
+        padding-top: 0.5rem !important;
+        padding-bottom: 0.5rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        --text-opacity: 1 !important;
+        color: rgba(255, 255, 255, var(--text-opacity)) !important;
+      }
+
+      button:hover {
+        background-color: rgba(43, 108, 176, var(--bg-opacity)) !important;
+      }
+
+      body {
+        padding: 15px;
+        width: 240px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btnDump" type="button">Grab links</button>
+    <button id="btnLaunch" type="button">Click links</button>
+    <p><img src="icon.png" /></p>
+  </body>
+</html>
