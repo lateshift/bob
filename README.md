@@ -17,4 +17,4 @@ Nothing fancy but easily customized to do other things.
 
 Created for a friend who needed to grab all PDFs on a site which used a Cookie-based authentication scheme.
 
-May the Bob be with you ...
+May the Bob be with you ... ![](icon.png)
